@@ -10,7 +10,7 @@ export const navigationRoutes = {
       meta: {
         iconClass: 'vuestic-iconset vuestic-iconset-dashboard',
       },
-    },
+    }, /*
     {
       name: 'statistics',
       displayName: 'menu.statistics',
@@ -215,6 +215,6 @@ export const navigationRoutes = {
           displayName: '404 Pages',
         },
       ],
-    },
+    }, */
   ],
 }
