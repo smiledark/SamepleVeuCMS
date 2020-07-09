@@ -29,10 +29,10 @@ export default {
   name: 'dashboard',
   components: {
     DashboardCharts,
-    DashboardInfoBlock,
+    //DashboardInfoBlock,
     //DashboardTable,
-    DashboardTabs,
-    DashboardMap,
+    //DashboardTabs,
+    //DashboardMap,
   },
   methods: {
     addAddressToMap ({ city, country }) {
