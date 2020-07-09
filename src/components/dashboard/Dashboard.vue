@@ -30,7 +30,7 @@ export default {
   components: {
     DashboardCharts,
     DashboardInfoBlock,
-    DashboardTable,
+    //DashboardTable,
     DashboardTabs,
     DashboardMap,
   },
