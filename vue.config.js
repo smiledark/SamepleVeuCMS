@@ -32,6 +32,10 @@ module.exports = {
         '@': path.resolve('src'),
       },
     },
+    devServer: {
+      disableHostCheck: true,
+      host: '0.0.0.0'
+    },
     plugins: [
       ...(
         (!lintOnSave && process.env.NODE_ENV === 'development') ? [] : [new StylelintPlugin({
